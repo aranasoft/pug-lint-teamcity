@@ -1,6 +1,6 @@
 {
   "name": "pug-lint-teamcity",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TeamCity reporter for pug-lint",
   "repository": "aranasoft/pug-lint-teamcity",
   "engines": {
