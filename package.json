@@ -1,0 +1,36 @@
+{
+  "name": "pug-lint-teamcity",
+  "version": "0.0.0",
+  "description": "TeamCity reporter for pug-lint",
+  "repository": "aranasoft/pug-lint-teamcity",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo --space && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "teamcity",
+    "pug-lint",
+    "reporter",
+    "validate",
+    "lint"
+  ],
+  "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
+  "contibutors": [
+    "Jay Harris <jay@aranasoft.com>"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/aranasoft/pug-lint-teamcity/issues"
+  },
+  "homepage": "https://github.com/aranasoft/pug-lint-teamcity",
+  "devDependencies": {
+    "mocha": "*",
+    "pug-lint": ">=1.2 <3",
+    "xo": "*"
+  }
+}
